@@ -4,7 +4,7 @@ public:
         bool f = false;
         
         for(int i=0;i<nums.size(); i++){
-            if((i==nums.size()-1) or( (i+1)<nums.size() && nums[i]<=nums[i+1])) continue;
+            if( (i==nums.size()-1) or nums[i]<=nums[i+1] ) continue;
             if(f) return false;
             
             if( i==0 or ( i+1<nums.size() && nums[i-1]<=nums[i+1] )){
