@@ -11,6 +11,7 @@ public:
         map<int,bool>m2;
         m1[start]=1;
         m2[start]=1;
+        
         while(q.size()>0){
             int siz = q.size();
             for(int i=0;i<siz;i++){
@@ -23,7 +24,7 @@ public:
                 if(newind1<arr.size()){
                     if(arr[newind1]==0) return true;
                     
-                    if(m1.find(newind1)!=m1.end() && m1[newind1]==1) continue;
+                    if(m1[newind1]==1) continue;
                     
                     q.push(newind1);
                     m1[newind1]=1;
@@ -32,7 +33,7 @@ public:
                 if(newind2>=0){
                     if(arr[newind2]==0) return true;
                     
-                    if(m2.find(newind2)!=m2.end() &&  m2[newind2]==1) continue;
+                    if(m2[newind2]==1) continue;
                     
                     q.push(newind2);
                     m2[newind2]=1;
