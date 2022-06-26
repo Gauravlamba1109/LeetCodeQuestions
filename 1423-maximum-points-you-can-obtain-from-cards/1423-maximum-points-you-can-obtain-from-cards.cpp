@@ -2,30 +2,25 @@ class Solution {
 public:
     int maxScore(vector<int>& cardPoints, int k) {
 //         vector<vector<int>>m(cardPoints.size(),vector<int>(cardPoints.size(),0));
-        
 //         return helper(cardPoints,k,0,cardPoints.size()-1,m);
-    
 //         total - subarry = ans 
 //             maximize(total-subarray) 
 //             minimize subarray 
-            
-        int i=0; int j=cardPoints.size()-k;
+
+        int i=0; 
+        int j=cardPoints.size()-k;
         int total = accumulate(cardPoints.begin(),cardPoints.end(),0);
-        int sum = 0;
-        for(int i=0;i<j;i++)sum+=cardPoints[i];
-        // cout<<sum<<" "<<k<<" ";
+        int sum = accumulate(cardPoints.begin(),cardPoints.begin()+j,0);
         int ans = sum;
+        
         while(i<j && j<cardPoints.size()){
-            // cout<<i<<","<<j<<" "<<cardPoints[i]<<" "<<cardPoints[j]<<" "<<sum<<endl;
-            sum = sum+cardPoints[j];
-            sum = sum-cardPoints[i];
-            
+            sum += (cardPoints[j++]-cardPoints[i++]);
             ans = min(ans,sum);
-            i++;j++;
         }
         return total-ans;
     }
     
+    //rec memoery limit exceeded 
     int helper(vector<int>&cards,int k,int i,int j,vector<vector<int>>&m){
         if(i>j || cards.size()==0 || k==0) return 0;
         if(k<0) return 0;
