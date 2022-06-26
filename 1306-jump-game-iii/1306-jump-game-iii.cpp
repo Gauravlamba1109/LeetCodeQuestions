@@ -4,40 +4,38 @@ public:
         if(count(arr.begin(),arr.end(),0)==0) return false;
         
         //bfs
-        queue<pair<int,int>>q;
-        q.push({start,arr[start]});
+        queue<int>q;
+        q.push(start);
         if(arr[start]==0) return true;
-        map<string,bool>m;
-        m[to_string(start)+";"+to_string(arr[start])]=1;
-        
+        map<int,bool>m1;
+        map<int,bool>m2;
+        m1[start]=1;
+        m2[start]=1;
         while(q.size()>0){
             int siz = q.size();
             for(int i=0;i<siz;i++){
-                pair<int,int>f = q.front(); q.pop();
-                int ind = f.first;
-                int val = f.second;
+                int f = q.front(); q.pop();
+                int ind = f;
                 
-                int newind1 = ind+ val;
-                int newind2 = ind- val;
+                int newind1 = ind+ arr[ind];
+                int newind2 = ind- arr[ind];
                 
                 if(newind1<arr.size()){
                     if(arr[newind1]==0) return true;
                     
-                    string t = to_string(newind1)+";"+to_string(arr[newind1]);
-                    // if(m[t]) continue;
+                    if(m1.find(newind1)!=m1.end() && m1[newind1]==1) continue;
                     
-                    q.push({newind1,arr[newind1]});
-                    m[t]=1;
+                    q.push(newind1);
+                    m1[newind1]=1;
                     
                 }
                 if(newind2>=0){
                     if(arr[newind2]==0) return true;
                     
-                    string t = to_string(newind2)+";"+to_string(arr[newind2]);
-                    if(m[t]) continue;
+                    if(m2.find(newind2)!=m2.end() &&  m2[newind2]==1) continue;
                     
-                    q.push({newind2,arr[newind2]});
-                    m[t]=1;
+                    q.push(newind2);
+                    m2[newind2]=1;
                     
 
                 }
