@@ -1,33 +1,27 @@
 class Solution {
 public:
     int candy(vector<int>& ratings) {
+        // give 1 candy to min ratings
         vector<int>cand(ratings.size(),1);
+        priority_queue<pair<int,int>>q;
         
         for(int i=0;i<ratings.size();i++){
-            // if only left is less => left+1;
-            if(i-1>=0 && ratings[i-1]<ratings[i])cand[i]=cand[i-1]+1;
-            // if only right is less => right+1;
-            // if(i+1<ratings.size() && ratings[i+1]<ratings[i]){
-            //     d[i]=1;
-            // }
-            // if both less => max(left,right)+1;
+            q.push({-ratings[i],i});
         }
         
-        for(int i=ratings.size()-1;i>=0;i--){
-            // if only left is less => left+1;
-            // if only right is less => right+1;
-            if(i+1<ratings.size() && ratings[i+1]<ratings[i])cand[i]=cand[i+1]+1;
+        while(q.size()){
+            pair<int,int>t = q.top(); q.pop();
+            int rat = t.first;
+            int ind = t.second;
             
-            // if both less => max(left,right)+1;
-            if((i+1<ratings.size() && ratings[i+1]<ratings[i]) && (i-1>=0 && ratings[i-1]<ratings[i]) ) cand[i]=max(cand[i+1],cand[i-1])+1;
+            if(ind-1>=0 && ratings[ind]>ratings[ind-1] && ind+1<ratings.size() && ratings[ind]>ratings[ind+1] )
+                cand[ind]=max(cand[ind-1],cand[ind+1])+1;
+            else if(ind-1>=0 && ratings[ind]>ratings[ind-1] )
+                cand[ind]=cand[ind-1]+1;
+            else if(ind+1<ratings.size() && ratings[ind]>ratings[ind+1] )
+                cand[ind]=cand[ind+1]+1;
         }
-        // for(auto c:cand)cout<<c<<" ";
-        // cout<<endl;
-        // for(auto c:ratings)cout<<c<<" ";
-        // cout<<endl;
         
-        int sum = accumulate(cand.begin(),cand.end(),0);
-        return sum;
+        return accumulate(cand.begin(),cand.end(),0);
     }
 };
-
