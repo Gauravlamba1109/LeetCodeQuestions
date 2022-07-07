@@ -1,56 +1,52 @@
-#define pp pair<int, char> 
-#define node pair<int, string> 
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
-    unordered_map<int, vector<pp>> graph;
-    unordered_map<int, bool> visited;
-    string result;
-    
-    void buildGraph(TreeNode* root, TreeNode* parent) {
-        if(root == NULL)
-            return;
+public:
+    TreeNode* lca(TreeNode* root , int sv , int dv){
+        if(root==NULL || (root->val==sv) || (root->val==dv)) return root;
         
-        if(parent)
-            graph[root->val].push_back({parent->val, 'U'});
-        
-        if(root->left)
-            graph[root->val].push_back({root->left->val, 'L'});
-        
-        if(root->right)
-            graph[root->val].push_back({root->right->val, 'R'});
-        
-        buildGraph(root->left, root);
-        buildGraph(root->right, root);
+        TreeNode* l = lca(root->left,sv,dv);
+        TreeNode* r = lca(root->right,sv,dv);
+
+        if(l==NULL && r==NULL) return NULL;
+        if(l==NULL) return r;
+        if(r==NULL) return l;
+        return root;
     }
     
-    bool dfs(int source, int destination, string &currPath) {
-        visited[source] = true;
-        
-        if(source == destination)
-            return true;
-            
-        for(auto dest: graph[source]) {
-            if(visited[dest.first] == false) {
-                visited[dest.first] = true;
-                
-                currPath.push_back(dest.second);
-                if(dfs(dest.first, destination, currPath))
-                    return true;
-                
-                currPath.pop_back();
-            }
+    void dfs(TreeNode* root,int tar, string& p,string& path){
+        if(root==NULL){ 
+            return;
+        }
+        if(root->val==tar){ 
+            path=p;
+            return ;
         }
         
-        return false;
+        dfs(root->left,tar,p+='L',path);
+        p.pop_back();
+        dfs(root->right,tar,p+='R',path);
+        p.pop_back();
+
     }
     
-public:
     string getDirections(TreeNode* root, int startValue, int destValue) {
-        buildGraph(root, NULL);
+        TreeNode* nod = lca(root,startValue,destValue);
         
-        string path;
-        dfs(startValue, destValue, path);
+        string s1="",s2="",t="";
+        dfs(nod,startValue,t,s1);t="";
+        dfs(nod,destValue,t,s2);
         
-        return path;
+        for(auto &c:s1)c='U';
+        return s1+s2;
     }
 };
