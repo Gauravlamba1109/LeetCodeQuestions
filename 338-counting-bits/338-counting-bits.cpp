@@ -3,19 +3,24 @@ public:
     vector<int> countBits(int n) {
         // bit + dp solution 
         vector<int>dp;
-        int offset = 1; int pow = 2;
+        int offset = 1;
         dp.push_back(0);
+        
         for(int i=1;i<=n;i++){
             dp.push_back(0);
-            int cnt=0;
-            if(offset*pow==i){
-                dp[i]=1;
-                offset = offset*pow;
-            }else{
-                dp[i]=dp[i-offset]+1;
+            if(offset*2==i){
+                offset = offset*2;
             }
+            dp[i]= dp[i-offset] + 1 ;
+            
         }
         return dp;
+        
+        
+        // https://youtu.be/RyBM56RIWrM
+        
+        
+        
         // string solution 
 //         vector<int>ans;
         
