@@ -1,26 +1,46 @@
 class Solution {
 public:
-    int maxResult(vector<int>& nums, int k)
-    {
-        long curr=0;
-        deque<int> dq;     		// Monoqueue
-		
-		// Start answering the best possible results for index `i` from the back
-        for(int i=nums.size()-1;i>=0;i--)
-        {
-            curr=nums[i]+(dq.empty()?0:nums[dq.front()]);       // Get current best, the maximum result will be the first element in the monoqueue.
-			
-			// We remove all the smaller results greedily as they wont get used anyways (This helps the monoqueue to remain sorted)
-            while(!dq.empty()&&curr>nums[dq.back()])
-                dq.pop_back();	
-            dq.push_back(i);              // Insert current index into the monoqueue
-			
-			// Erase all the indices in deque that are greater than or equal to i+k.
-            if(dq.front()>=i+k)
-                dq.pop_front();
-            nums[i]=curr;               // Use input array as auxillary array to store the best results.
+    int maxResult(vector<int>& nums, int k) {
+        vector<int>dp(nums.size()+1,0);
+        // max from curr pos is dp[currpos]
+        priority_queue<pair<int,int>>q;
+        q.push({nums.back(),nums.size()-1});
+        
+        dp[nums.size()-1]=nums.back();
+        for(int i=nums.size()-2;i>=0;i--){
+            int ma=nums[i];
+            while(q.size() && q.top().second>(i+k)){
+                q.pop();
+            }
+            ma+=q.top().first;
+            q.push({ma,i});
+            
+            // for(int j=1;j<=k && i+j<=nums.size()-1;j++){
+            //     ma = max(ma,nums[i] + dp[i+j]);
+            // }
+            
+            dp[i]=ma;
         }
-        return curr;                           // `curr` would have the best or the maxium result to reach end from index 0.
+        
+        return dp[0];
+        
+        // recursive + memo  ::: tle 
+        // map<string,int>m;
+        // return helper(nums,k,0,0,nums.size(),m);
     }
     
+//     int helper(vector<int>&nums, int k,int score ,int pos,int n,map<string,int>&m){
+//         if(pos>=n) return INT_MIN;
+//         if(pos==n-1) return (score+nums[n-1]);
+        
+//         string t = to_string(score)+"."+to_string(pos);
+//         if(m.find(t)!=m.end()) return m[t];
+//         // can move to pos+1 to min(pos+k,n-1)
+//         int ans = 0;
+//         for(int i=pos+1;i<=min(pos+k,n-1);i++){
+//             ans = max(ans,helper(nums,k,score+nums[pos],i,n,m));
+//         }
+//         m[t]=ans;
+//         return m[t];
+//     }
 };
