@@ -3,26 +3,28 @@ public:
     int maxResult(vector<int>& nums, int k) {
         vector<int>dp(nums.size()+1,0);
         // max from curr pos is dp[currpos]
+        
         priority_queue<pair<int,int>>q;
         q.push({nums.back(),nums.size()-1});
         
         dp[nums.size()-1]=nums.back();
         for(int i=nums.size()-2;i>=0;i--){
-            int ma=nums[i];
-            while(q.size() && q.top().second>(i+k)){
-                q.pop();
-            }
-            ma+=q.top().first;
-            q.push({ma,i});
-            
-            // for(int j=1;j<=k && i+j<=nums.size()-1;j++){
-            //     ma = max(ma,nums[i] + dp[i+j]);
-            // }
-            
-            dp[i]=ma;
+            while(q.size() && q.top().second>(i+k)) q.pop();
+            dp[i]=nums[i] + q.top().first;
+            q.push({dp[i],i});
         }
         
         return dp[0];
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
         // recursive + memo  ::: tle 
         // map<string,int>m;
