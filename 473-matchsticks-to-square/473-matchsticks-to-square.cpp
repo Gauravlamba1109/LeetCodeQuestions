@@ -11,8 +11,6 @@ public:
         return possible(m,partsum,0,0,0,0,0);
     }
     
-    
-    
     bool possible(vector<int>&m,int sum,int a, int b,int c,int d,int i){
         if(i==m.size()){
             if(a==b && b==c && c==d) return true;
