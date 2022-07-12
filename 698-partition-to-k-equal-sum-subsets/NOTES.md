@@ -1,46 +1,22 @@
-class Solution {
-public:
-bool canPartitionKSubsets(vector<int>& nums, int k) {
-if(nums.size() == 0) {
-return false;
 }
-int sum =0 ;
-for(int i : nums) {
-sum += i;
-}
-int target = sum/k;
-vector<int> sub(k, 0);
-sort(nums.begin(), nums.end(), greater<int>());
-return solve(nums, sub, k, target, 0);
-}
-bool solve(vector<int>& nums, vector<int>& sub, int k, int target, int index) {
-if(index == nums.size()) {
-for(int i=1; i<sub.size(); i++) {
-if(sub[i] != sub[i-1]) {
-return false;
-}
-}
+bool btrack(vector<int>& nums, int target, int i, int k) {
+if (k == 1)
 return true;
-}
-for(int i=0; i<k; i++) {
-if(sub[i]+nums[index] > target) {
+for (; i < nums.size(); i++) {
+int num = nums[i];  // stored for further restoring state of nums[i]
+bool res;
+if (num > target)   // if current number is greater, we can't include it, so skip
 continue;
-}
-int j = i-1;
-while(j>=0) {
-if(sub[j] == sub[i]) {
-break;
-}
-j--;
-}
-if(j != -1) {
-continue;
-}
-sub[i] += nums[index];
-if(solve(nums, sub, k, target, index+1)) {
+nums[i] = req + 1;  // element moved out of range so that it won't be used again
+if (num == target)  // target is found which means current subset is full, move to next one, with target = required, index as 0 and next subset k-1
+res = btrack(nums, req, 0, k-1);
+else
+res = btrack(nums, target-num, i+1, k);
+if (res)
 return true;
-}
-sub[i] -= nums[index];
+nums[i] = num;
+while (i < nums.size()-1 and nums[i+1] == num)
+i++;        // skip all the duplicate elements which couldn't produce an answer, it'll reduce time complexity
 }
 return false;
 }
