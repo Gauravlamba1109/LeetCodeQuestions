@@ -1,3 +1,24 @@
+return true;
+}
+sub[i] -= nums[index];
+}
+return false;
+}
+};
+​
+​
+​
+​
+class Solution {
+public:
+int req;
+bool canPartitionKSubsets(vector<int>& nums, int k) {
+int sum = 0;
+sum = accumulate(nums.begin(), nums.end(), sum);
+if (nums.size() < k || sum % k) return false;
+req = sum/k;    // store globally for further use
+sort(begin(nums),end(nums),greater<int>());
+return btrack(nums, sum / k, 0, k);
 }
 bool btrack(vector<int>& nums, int target, int i, int k) {
 if (k == 1)
@@ -21,3 +42,4 @@ i++;        // skip all the duplicate elements which couldn't produce an answ
 return false;
 }
 };
+```
