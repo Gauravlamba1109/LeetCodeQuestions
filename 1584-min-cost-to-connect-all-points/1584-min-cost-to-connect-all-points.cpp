@@ -1,37 +1,50 @@
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
-        // min spanning tree 
-        // prims algorithm
-        // n-1 edges required 
+        // transform to nodes 
+        map<int,vector<pair<int,int>>>m;
         
-        unordered_map<int,vector<pair<int,int>>>m;        
-        vector<int>visited(points.size(),0);
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>>q;
-        
-        for(int i=0;i<points.size();i++){
-            for(int j=i+1;j<points.size();j++){
-                int t = abs(points[i][0]-points[j][0]) + abs(points[i][1]-points[j][1]);
-                m[i].push_back({t,j});
-                m[j].push_back({t,i});                
-            }    
-        }
-        q.push({0,0}); //cost,index
-        int ans=0, vis=0;
-        while(vis<points.size()){
-            pair<int,int>f = q.top(); q.pop();
-            int dist = f.first , nod = f.second;
-            
-            if(visited[nod]) continue;
-            visited[nod]=1; vis++;
-            
-            ans+=dist;
-
-            for(auto nei: m[nod]){
-                q.push(nei);
+        for(int node = 0 ;node<points.size();node++){
+            for(int i=0;i<points.size();i++){
+                if(node==i)continue;
+                int dis = abs(points[node][0]-points[i][0])+abs(points[node][1]-points[i][1]);
+                m[node].push_back({dis,i});
+                m[i].push_back({dis,node});
             }
         }
+        int n=points.size();
+        int key[n]; // store the dist connecting i 
+        int mst[n]; // is i part of mst ;
+        for(int i=0;i<n;i++){
+            key[i]=1e9;
+            mst[i]=0;
+        }
         
+        priority_queue< pair<int,int> , vector<pair<int,int>> , greater<pair<int,int>> >pq;
+        
+        key[0]=0;
+        pq.push({0,0});
+        int ans=0;
+        while(pq.size()>0){
+            int curr = pq.top().second;
+
+            pq.pop();
+            mst[curr]=1;
+            for(auto nbrs : m[curr]){
+                int nbr = nbrs.second;
+                int dis = nbrs.first;
+                
+                if(!mst[nbr] && dis < key[nbr]){
+                    key[nbr]= dis;
+                    pq.push({key[nbr],nbr});
+                }
+            }
+        }
+        ans=0;
+        for(int i=0;i<n;i++){
+            ans+=key[i];
+        }
         return ans;
+        
     }
 };
