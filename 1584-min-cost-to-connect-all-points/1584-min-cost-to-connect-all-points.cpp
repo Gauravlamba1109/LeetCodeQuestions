@@ -24,12 +24,18 @@ public:
         
         key[0]=0;
         pq.push({0,0});
-        int ans=0;
-        while(pq.size()>0){
+        int ans=0; int used = 0;
+        while(used<n || pq.size()>0){
             int curr = pq.top().second;
-
+            int dst = pq.top().first;
+            
             pq.pop();
+            
+            if(mst[curr]==1) continue;
+            ans+=dst;
             mst[curr]=1;
+            used++;
+            
             for(auto nbrs : m[curr]){
                 int nbr = nbrs.second;
                 int dis = nbrs.first;
@@ -39,10 +45,6 @@ public:
                     pq.push({key[nbr],nbr});
                 }
             }
-        }
-        ans=0;
-        for(int i=0;i<n;i++){
-            ans+=key[i];
         }
         return ans;
         
