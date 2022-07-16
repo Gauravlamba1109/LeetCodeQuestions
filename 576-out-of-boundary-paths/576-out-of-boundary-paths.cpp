@@ -1,35 +1,30 @@
 class Solution {
 public:
     vector<vector<int>>dir= {{1,0},{-1,0},{0,1},{0,-1}};
-    
+    const static int mod = 1000000007;
     bool isvalid(int i,int j, int n, int m){
         if(i<0 || j<0 || i>=n || j>=m) return false; // out of bounds
         return true; // in bounds 
     }
     
     int findPaths(int m, int n, int maxMove, int startRow, int startColumn) {
-        int ans=0;
         vector<vector<vector<int>>>grid(m+1,vector<vector<int>>(n+1,vector<int>(maxMove+1,-1)));
-        for(int i=1;i<=maxMove;i++)
-            ans=(ans+dfs(startRow,startColumn,m,n,i,grid))%1000000007;
+        int ans=0;
+        for(int i=1;i<=maxMove;i++) ans=(ans+dfs(startRow,startColumn,m,n,i,grid))%mod;
         
-        return ans%1000000007;
+        return ans%mod;
     }
     
     int dfs(int i, int j, int n ,int m, int moves,vector<vector<vector<int>>>&grid){
         if(isvalid(i,j,n,m)){
             if(grid[i][j][moves]>=0) return grid[i][j][moves];
-            if(moves==0) return 0;
+            if(moves==0) 
+                return 0;
             int ans=0;
             // can move to 4 direction 
-            for(auto d : dir){
-                ans=(ans+dfs(i+d[0],j+d[1],n,m,moves-1,grid))%1000000007;
-            }
+            for(auto d : dir) ans=(ans+dfs(i+d[0],j+d[1],n,m,moves-1,grid))%mod;
             return grid[i][j][moves]=ans;
-        }else{
-            if(moves==0) return 1;
-            else return 0;
         }
-        // can move moves times
+        return moves==0;        
     }
 };
