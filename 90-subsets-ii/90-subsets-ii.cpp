@@ -1,11 +1,13 @@
 class Solution {
 public:
-    set<vector<int>>ans;
+    vector<vector<int>>ans;
      vector<vector<int> > subsetsWithDup(vector<int> &S) {
          vector<int>v;
+         sort(S.begin(),S.end());
          helper(S,v,0);
-         vector<vector<int>>t(ans.begin(),ans.end());
-         return t;
+         return ans;
+         
+         
 //         vector<vector<int> > totalset = {{}};
 //         sort(S.begin(),S.end());
          
@@ -26,15 +28,18 @@ public:
         }
          
          void helper(vector<int>&s,vector<int>&v,int i){
-             if(i>=s.size()){
+             if(i==s.size()){
                  vector<int>t=v;
-                 sort(t.begin(),t.end());
-                 ans.insert(t);
+                 ans.push_back(t);
                  return ;
              }
+             // all subsets that include s[i];
              v.push_back(s[i]);
              helper(s,v,i+1);
              v.pop_back();
+             
+             // that doesnt include s[i];
+             while(i+1<s.size() && s[i+1]==s[i])i++;
              helper(s,v,i+1);
          }
 };
