@@ -1,11 +1,12 @@
 class Solution {
 public:
-    int solve(int start,vector<int>& slices, int end,int n, vector<vector<int>>&dp){
-        if(start>end || n==0) return 0;
+    int solve(int start,vector<int>& slices,int n, vector<vector<int>>&dp){
+        if(start>=slices.size() || n==0) return 0;
+        
         if(dp[start][n]!=-1) return dp[start][n];
         
-        int inc = slices[start]+ solve(start+2,slices,end,n-1,dp);
-        int noc = 0 + solve(start+1,slices,end,n,dp);
+        int noc = 0 + solve(start+1,slices,n,dp);
+        int inc = slices[start]+ solve(start+2,slices,n-1,dp);
         
         return dp[start][n]=max(inc,noc);
     }
@@ -18,13 +19,13 @@ public:
         
         
         int k = slices.size();
-        vector<vector<int>>dp(k+1,vector<int>(k/3+1,-1));
-                        //    start,     ,end ,slice
-        int firststart = solve(0,slices,k-2,k/3,dp);
+        vector<vector<int>>dp(k+1,vector<int>(k,-1));
+        vector<vector<int>>dp2(k+1,vector<int>(k,-1));
         
-        vector<vector<int>>dp2(k+1,vector<int>(k/3+1,-1));
-        int secondstart= solve(1,slices,k-1,k/3,dp2);
+        int secondstart= solve(1,slices,k/3,dp2);
         
+        slices[k-1]=0; // cant take the last slice 
+        int firststart = solve(0,slices,k/3,dp);
         
         return max(firststart,secondstart);
     }
