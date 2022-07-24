@@ -10,7 +10,7 @@ public:
     int query(int left, int right, int value) {
 
         left=lower_bound(m[value].begin(),m[value].end(),left)-m[value].begin();
-        right=upper_bound(m[value].begin(),m[value].end(),right)-m[value].begin();
+        right=upper_bound(m[value].begin()+left,m[value].end(),right)-m[value].begin();
 
         return right-left;
     }
