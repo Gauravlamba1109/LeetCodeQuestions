@@ -20,10 +20,10 @@ public:
         char temp = board[i][j];
         board[i][j]='.';
         
-        bool t1 = dfs(board,word,i+1,j,k+1);
-        bool t2 = dfs(board,word,i-1,j,k+1);
-        bool t3 = dfs(board,word,i,j+1,k+1);
-        bool t4 = dfs(board,word,i,j-1,k+1);
+        bool t1 = dfs(board,word,i+1,j,k+1); if(t1) return true;
+        bool t2 = dfs(board,word,i-1,j,k+1); if(t2) return true;
+        bool t3 = dfs(board,word,i,j+1,k+1); if(t3) return true;
+        bool t4 = dfs(board,word,i,j-1,k+1); if(t4) return true;
 
         board[i][j]=temp;
         
