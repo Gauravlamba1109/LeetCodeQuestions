@@ -10,13 +10,15 @@
 class Solution {
 public:
     TreeNode* ans=NULL;
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* q, TreeNode* p) {
         // iterative 
         stack<TreeNode*>stack;
         map<TreeNode*,TreeNode*>parent;
         
         parent[root]=NULL;
         stack.push(root);
+        
+        // until i have p or q in my map ; traverse the tree 
         while(parent.find(p)==parent.end()||parent.find(q)==parent.end()){
             TreeNode* node=stack.top();
             stack.pop();
@@ -29,6 +31,8 @@ public:
                 stack.push(node->right);
             }
         }
+        
+        // now i have path of p or q inside parent ;
         vector<TreeNode*>v1;
         while(p!=NULL){
             v1.push_back(p);
