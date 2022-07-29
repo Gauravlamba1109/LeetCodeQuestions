@@ -12,17 +12,20 @@ class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
         if(head->next==NULL) return NULL;
-        ListNode* slow = new ListNode(-1); slow->next=head;
-        ListNode* fast = head;
-        head=slow;
-        while(fast!=NULL && n>0){ n--; fast=fast->next;}
-        // cout<<fast->val<<" "<<slow->val<<endl;
+        // dummy pointer 
+        ListNode* slow = new ListNode(-1); 
+        slow->next=head;
+        ListNode* fast = slow;
         
-
+        head=slow;  // head ponting to dummy node 
+        
+        while(fast!=NULL && n>=0){ n--; fast=fast->next;}
+        
         while(fast!=NULL){
             fast=fast->next;
             slow=slow->next;
         }
+        
         slow->next=slow->next->next;
         return head->next;
     }
