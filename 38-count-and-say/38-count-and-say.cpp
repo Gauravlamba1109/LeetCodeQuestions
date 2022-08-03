@@ -8,7 +8,6 @@ public:
         
         for(int i=2;i<=n;i++){
             string say = dp[i-1];
-            unordered_map<char,int>m;
             int j=0;
             string tosay="";
             while(j<say.size()){
@@ -26,7 +25,7 @@ public:
     }
 };
 
-            //      11
+            //     11
             //     21
             //     1211
             //     111221
