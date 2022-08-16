@@ -2,27 +2,26 @@ class Solution {
 public:
     int len;
     bool match(string t, unordered_map<string,int>w){
-        for(int j=0;j<t.size(); j+=len){
-            string temp = t.substr(j,len);
-            if(w.find(temp)!=w.end()){
-                if(--w[temp]==-1) return false;
+        // for(int j=0;j<t.size(); j+=len){
+        //     string temp = t.substr(j,len);
+        //     if(w.find(temp)!=w.end()){
+        //         if(--w[temp]==-1) return false;
+        //     }
+        //     else return false;
+        // }
+        // return true;
+        
+        vector<bool>dp(t.size()+1,0);
+        dp[t.size()]=1;
+        
+        for(int i=t.size()-len;i>=0;i-=len){
+            string temp=t.substr(i,len);
+            if(w.find(temp)!=w.end() && w[temp]>0 &&(i+len)<=t.size() && dp[i+len]==1){
+                dp[i]=1;
+                w[temp]--;
             }
-            else return false;
         }
-        return true;
-        
-//         vector<bool>dp(t.size()+1,0);
-//         dp[t.size()]=1;
-//         int s=(*w.begin()).first.size();
-        
-//         for(int i=t.size()-1;i>=0;i--){
-//             string temp=t.substr(i,s);
-//             if(w.find(temp)!=w.end() && w[temp]>0 &&(i+s)<=t.size() && dp[i+s]==1){
-//                 dp[i]=1;
-//                 w[temp]--;
-//             }
-//         }
-//         return dp[0];
+        return dp[0];
     }
     
     vector<int> findSubstring(string s, vector<string>& words) {
