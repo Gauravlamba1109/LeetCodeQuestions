@@ -11,6 +11,8 @@ public:
         // }
         // return true;
         
+        // or less optimal one below 
+        
         vector<bool>dp(t.size()+1,0);
         dp[t.size()]=1;
         
@@ -19,7 +21,7 @@ public:
             if(w.find(temp)!=w.end() && w[temp]>0 &&(i+len)<=t.size() && dp[i+len]==1){
                 dp[i]=1;
                 w[temp]--;
-            }
+            }else return false;
         }
         return dp[0];
     }
