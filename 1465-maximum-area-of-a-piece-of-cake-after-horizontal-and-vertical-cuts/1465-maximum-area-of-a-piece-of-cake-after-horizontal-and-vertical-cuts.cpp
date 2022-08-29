@@ -2,6 +2,13 @@ class Solution {
 public:
     const long long int mod = 1000000007;
     int maxArea(int h, int w, vector<int>& horizontalCuts, vector<int>& verticalCuts) {
+        
+        /*
+        
+        calculate the max height and max width we can have 
+        
+        */
+        
         horizontalCuts.push_back(h);
         horizontalCuts.push_back(0);
         verticalCuts.push_back(w);
@@ -14,10 +21,12 @@ public:
         for(int i=0;i<horizontalCuts.size()-1;i++){
             hm= max(hm,horizontalCuts[i+1]-horizontalCuts[i]);
         }
+        
         int vm = 0;
         for(int i=0;i<verticalCuts.size()-1;i++){
             vm= max(vm,verticalCuts[i+1]-verticalCuts[i]);
         }
+        
         long v= hm%mod * vm%mod;
         return (int)v;
         
