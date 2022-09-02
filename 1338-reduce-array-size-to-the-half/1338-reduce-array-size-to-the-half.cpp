@@ -1,28 +1,23 @@
 class Solution {
 public:
     int minSetSize(vector<int>& arr) {
-        int sum=0;
         unordered_map<int,int>m;
-        
-        for(auto ele : arr){
-            m[ele]++; 
+        priority_queue<pair<int,int>>q;
+        for(auto ele:arr){
+            m[ele]++;
+        }
+        for(auto ele: m){
+            q.push({ele.second,ele.first});
         }
         
-        vector<int>a;
-        for(auto ele : m){
-            a.push_back(ele.second);
-            sum+=ele.second;
-        }
-        
-        sort(a.begin(),a.end(), greater<int>());
-        int des= sum - (sum/2), cnt=0 , i=0;
-        while(i<a.size() && des>0){
-            cnt++;
-            des-=a[i];
-            i++;
+        int cnt=0;
+        int freq=0;
+        while(freq<arr.size()/2){
+            cnt+=1;
+            freq+=q.top().first;
+            q.pop();
         }
         
         return cnt;
     }
-  
 };
