@@ -1,42 +1,53 @@
-struct trie{
-    trie *child[26];
-    bool end;
+class Trie{
+public:
+    Trie* child[26];
+    bool end ;
+    
+    Trie(){
+        for(int i=0;i<26;i++)this->child[i]=NULL;
+        this->end = false;
+    }
 };
 
 class WordDictionary {
-private :
-    trie *root;
 public:
+    Trie* root;
+    
     WordDictionary() {
-        root = new trie();  
+        root = new Trie();    
     }
     
     void addWord(string word) {
-        trie *t= root;
+        Trie* node = root;
         for(int i=0;i<word.size();i++){
-            if(t->child[word[i]-'a']==NULL){
-                t->child[word[i]-'a']= new trie();
+            if(node->child[word[i]-'a']==NULL){
+                node->child[word[i]-'a']=new Trie();
             }
-            t=t->child[word[i]-'a'];
+            node= node->child[word[i]-'a'];
         }
-        t->end=true;
+        node->end = true;
     }
-    bool search(string word){
-        return search(word,0,root);
+    
+    bool search(string word) {
+        Trie* node = root;
+        return helper(word,node,0);
     }
-    bool search(string& word,int l, trie*t){
-        for(int i=l;word[i]&&t;i++){
-            if(word[i]!='.'){
-                t=t->child[word[i]-'a'];
-            }else{
-                trie* temp = t;
-                for(int j=0;j<26;j++){
-                    t = temp->child[j];
-                    if(search(word,i+1,t)) return true;
+    
+    bool helper(string& word, Trie* node, int i){
+        if(node==NULL) return false;
+        if(i==word.size())return node->end;
+        
+        if(word[i]!='.'){
+            return helper(word,node->child[word[i]-'a'],i+1);
+        }else{
+            for(int j=0;j<26;j++){
+                if(helper(word,node->child[j],i+1)){
+                    return true;
                 }
             }
         }
-        return t&& t->end;
+        
+        return false;
     }
 };
 
