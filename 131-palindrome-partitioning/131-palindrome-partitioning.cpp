@@ -1,34 +1,36 @@
 class Solution {
 public:
+    vector<vector<string>>ans;
     vector<vector<string>> partition(string s) {
-        vector<vector<string>>ans;
-        vector<string>tans;
-        he(ans,tans,s,0);
+        // backtracking
+        int j = s.size()-1;
+        vector<string>p;
+        helper(s,0,j,p);
         return ans;
     }
     
-    void he(vector<vector<string>>&ans,vector<string>tans,string s, int start){
-        if(start>s.size())return ;
-        if(start==s.size())
-            ans.push_back(tans);
-        else 
-        {
-            for(int i=start ; i<s.size() ;i++){
-                string f= s.substr(start,i-start+1); //substr(start index, lenght )
-                if(ispal(f)){
-                    tans.push_back(f);
-                    he(ans,tans,s,i+1);
-                    tans.pop_back();
-                }
+    void helper(string s, int i, int j, vector<string>&p){
+        if(i==s.size()){
+            ans.push_back(p);
+            return ;
+        }
+        for(int idx = i ; idx<=j;idx++){
+            if(ispalan(s.substr(i,idx-i+1))){
+                p.push_back(s.substr(i,idx-i+1));
+                helper(s,idx+1,j,p);
+                p.pop_back();
             }
         }
     }
     
-    bool ispal(string &st){
-        int s=0;int e=st.size()-1;
-        while(s<e){
-            if(st[s++]!=st[e--]) return false;
+    bool ispalan(string s){
+        int i= 0;
+        int j= s.size()-1;
+        while(i<j){
+            if(s[i]!=s[j])return false;
+            i++; j--;
         }
+        
         return true;
     }
 };
