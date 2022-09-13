@@ -1,3 +1,6 @@
+// select numSelect columns from mat and count the max covered rows 
+// then backtarck and select different combin and repeat
+
 class Solution {
 public:
     int ans;
@@ -9,6 +12,7 @@ public:
         return ans;
     }
     
+    // O(2^m) * O(n*m) = nm*(2^m)
     void helper(vector<vector<int>>& mat,vector<int>&chose, int c, int n ,int m, int cols){
         if(cols == 0){
             int cntRows = calcRow(mat,chose,n,m);
@@ -24,7 +28,7 @@ public:
         chose[c]=0;
     }
     
-    // covered count 
+    // covered count o(n*m)
     int calcRow(vector<vector<int>>& mat,vector<int>&chose, int n ,int m){
         int cnt = 0;
         for(int i=0;i<n;i++){
@@ -37,7 +41,6 @@ public:
             }
             if(ok)cnt++;
         }
-        
         return cnt;
     }
 };
