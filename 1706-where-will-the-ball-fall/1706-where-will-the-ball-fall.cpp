@@ -7,6 +7,7 @@ public:
         
         for(int i=0;i<grid[0].size();i++){
             ans[i]=dfs(grid,0,i);
+            if(ans[i]==-2)ans[i]=-1;
         }
         
         return ans;
@@ -18,12 +19,17 @@ public:
         // if reached end then put j ;
         if(i==grid.size()) return j;
         
-        // where will it go from here
-        int nxtCol = j + grid[i][j] ;
+        if(grid[i][j]==1){
+            // if not valid pos 
+            if(j==(grid[0].size()-1) || grid[i][j+1]==-1) return -2;
+            return dfs(grid,i+1,j+1);
+            
+        }else if(grid[i][j]==-1){
+            // if not valid 
+            if(j==0 || grid[i][j-1]==1) return -2;
+            return dfs(grid,i+1,j-1);
+        }
         
-        // if the nxtcol is not valid then we cant move there 
-        if(nxtCol<0 || nxtCol>grid[0].size()-1 || grid[i][j]!=grid[i][nxtCol]) return -1;
-        
-        return dfs(grid,i+1,nxtCol);
+        return -1;
     }
 };
