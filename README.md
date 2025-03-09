@@ -38,5 +38,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3483-alternating-groups-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3483-alternating-groups-ii) |
+## String
+|  |
+| ------- |
+| [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 <!---LeetCode Topics End-->
