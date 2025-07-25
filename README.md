@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
@@ -55,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -77,10 +79,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 ## Queue
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Union Find
 |  |
