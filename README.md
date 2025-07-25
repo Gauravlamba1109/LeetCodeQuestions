@@ -90,4 +90,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+## Depth-First Search
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0386-lexicographical-numbers) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
