@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
+| [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1343-dice-roll-simulation](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1343-dice-roll-simulation) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -22,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
+| [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1343-dice-roll-simulation](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1343-dice-roll-simulation) |
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
@@ -107,4 +109,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0386-lexicographical-numbers) |
+## Greedy
+|  |
+| ------- |
+| [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 <!---LeetCode Topics End-->
