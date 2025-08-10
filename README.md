@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
