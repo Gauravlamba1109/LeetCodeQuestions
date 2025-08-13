@@ -15,7 +15,7 @@ public:
 
         if(dp[s][c]!=INT_MAX) return dp[s][c];
         // cpy
-        int cpy = (s!=c) ? dfs(s,s, t+1,dp) : INT_MAX;
+        int cpy = dfs(s+s,s, t+2,dp);
         // pst
         int pst = dfs(s+c,c, t+1,dp);
 
