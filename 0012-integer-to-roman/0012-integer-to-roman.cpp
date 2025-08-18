@@ -11,13 +11,12 @@ public:
 
         int n = sym.size();
         for(int i=n-1; i>=0; i--){
-            int d = num/sym[i].second;
             int rem = num%sym[i].second;
+            int d = (num-rem)/sym[i].second;
 
             while(d--){
                 ans+=sym[i].first;
             }
-
             num=rem;
         }
 
