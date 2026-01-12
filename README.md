@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1025-minimum-cost-for-tickets) |
+| [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
 | [1343-dice-roll-simulation](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1343-dice-roll-simulation) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -58,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0012-integer-to-roman) |
 | [0650-2-keys-keyboard](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0650-2-keys-keyboard) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
+| [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2649-count-total-number-of-colored-cells) |
 ## Simulation
@@ -150,4 +152,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
+## Geometry
+|  |
+| ------- |
+| [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
 <!---LeetCode Topics End-->
