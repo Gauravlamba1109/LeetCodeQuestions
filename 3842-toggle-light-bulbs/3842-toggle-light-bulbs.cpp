@@ -1,14 +1,14 @@
 class Solution {
 public:
     vector<int> toggleLightBulbs(vector<int>& bulbs) {
-        map<int,bool>m;
+        vector<bool>m(101,0);
         for(auto e : bulbs){
             m[e]=!m[e];
         }
         vector<int>ans;
-        for(auto e : m){
-            if(e.second){
-                ans.push_back(e.first);
+        for(int e=0;e<m.size();e++){
+            if(m[e]){
+                ans.push_back(e);
             }
         }
 
