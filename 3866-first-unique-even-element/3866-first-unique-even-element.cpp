@@ -1,7 +1,7 @@
 class Solution {
 public:
     int firstUniqueEven(vector<int>& nums) {
-        map<int,int>m;
+        unordered_map<int,int>m;
         for(auto e:nums){
             if(e%2==0){
                 m[e]++;
