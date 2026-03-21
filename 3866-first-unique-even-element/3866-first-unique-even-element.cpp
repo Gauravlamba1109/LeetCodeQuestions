@@ -2,8 +2,7 @@ class Solution {
 public:
     int firstUniqueEven(vector<int>& nums) {
         map<int,int>m;
-        for(int i=nums.size()-1; i>=0;i--){
-            int e=nums[i];
+        for(auto e:nums){
             if(e%2==0){
                 m[e]++;
             }
