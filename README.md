@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3643-zero-array-transformation-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3643-zero-array-transformation-ii) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 | [3866-first-unique-even-element](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3866-first-unique-even-element) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -57,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Math
 |  |
 | ------- |
@@ -66,11 +68,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2649-count-total-number-of-colored-cells](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2649-count-total-number-of-colored-cells) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
 |  |
 | ------- |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Sliding Window
 |  |
 | ------- |
@@ -166,4 +170,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
+## Number Theory
+|  |
+| ------- |
+| [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 <!---LeetCode Topics End-->
