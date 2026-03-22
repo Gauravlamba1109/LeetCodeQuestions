@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 | [3866-first-unique-even-element](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3866-first-unique-even-element) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -53,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 | [3866-first-unique-even-element](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3866-first-unique-even-element) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Two Pointers
 |  |
 | ------- |
@@ -118,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [3866-first-unique-even-element](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3866-first-unique-even-element) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Queue
 |  |
 | ------- |
@@ -145,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
+| [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
