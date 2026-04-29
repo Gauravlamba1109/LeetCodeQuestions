@@ -7,15 +7,9 @@ public:
         // 
 
 
-        unordered_map<int,int> ma;
-        
         for(auto e : nums){
-            ma[e]++;
-            ma[e]=ma[e]%3;
-        }
-
-        for(auto e : ma){
-            if(e.second==1) return e.first;
+            int i = count(nums.begin(),nums.end(),e)%3;
+            if(i==1) return e;
         }
 
         return -1;
