@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0137-single-number-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0137-single-number-ii) |
 | [0260-single-number-iii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0260-single-number-iii) |
+| [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -165,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 ## Enumeration
@@ -187,4 +189,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
