@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
+| [1291-sequential-digits](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1291-sequential-digits) |
 ## Matrix
 |  |
 | ------- |
