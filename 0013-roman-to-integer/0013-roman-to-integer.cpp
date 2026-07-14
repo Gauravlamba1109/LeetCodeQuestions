@@ -51,7 +51,7 @@ public:
                 }
                 else num+=1;
             }
-            cout<<"i:"<<i<<" num="<<num<<endl;
+            // cout<<"i:"<<i<<" num="<<num<<endl;
             i++;
         }
         
