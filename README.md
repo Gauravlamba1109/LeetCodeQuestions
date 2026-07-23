@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
+| [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0416-partition-equal-subset-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0416-partition-equal-subset-sum) |
 | [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0050-powx-n) |
+| [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
 | [0650-2-keys-keyboard](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0650-2-keys-keyboard) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
@@ -210,4 +212,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0494-target-sum) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
