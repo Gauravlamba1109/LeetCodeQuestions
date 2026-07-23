@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0416-partition-equal-subset-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0416-partition-equal-subset-sum) |
+| [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0494-target-sum) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0416-partition-equal-subset-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0416-partition-equal-subset-sum) |
+| [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0494-target-sum) |
 | [0650-2-keys-keyboard](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0650-2-keys-keyboard) |
 | [0819-minimum-swaps-to-make-sequences-increasing](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0819-minimum-swaps-to-make-sequences-increasing) |
@@ -107,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0151-reverse-words-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
+| [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
