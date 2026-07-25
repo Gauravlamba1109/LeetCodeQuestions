@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0137-single-number-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0198-house-robber) |
 | [0260-single-number-iii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0198-house-robber) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
 | [0416-partition-equal-subset-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0416-partition-equal-subset-sum) |
@@ -60,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0012-integer-to-roman](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0013-roman-to-integer) |
+| [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -113,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0013-roman-to-integer) |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
+| [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
@@ -168,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0386-lexicographical-numbers) |
 ## Greedy
 |  |
@@ -220,4 +225,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
