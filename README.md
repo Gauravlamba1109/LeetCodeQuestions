@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0137-single-number-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0198-house-robber) |
+| [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0260-single-number-iii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0260-single-number-iii) |
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Union Find
@@ -185,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 ## Sorting
 |  |
@@ -239,4 +243,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0146-lru-cache) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
