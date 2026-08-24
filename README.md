@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0146-lru-cache) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
+| [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
+| [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -154,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
+| [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [3866-first-unique-even-element](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3866-first-unique-even-element) |
@@ -185,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
+| [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
@@ -192,11 +196,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
+| [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 ## Sorting
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
+| [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 ## Enumeration
