@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0146-lru-cache) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
@@ -122,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0151-reverse-words-in-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
