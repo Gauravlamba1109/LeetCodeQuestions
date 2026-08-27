@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0042-trapping-rain-water](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0042-trapping-rain-water) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0137-single-number-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0198-house-robber) |
@@ -45,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0042-trapping-rain-water) |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0198-house-robber) |
 | [0312-burst-balloons](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0312-burst-balloons) |
