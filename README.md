@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0013-roman-to-integer) |
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0424-longest-repeating-character-replacement) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0013-roman-to-integer) |
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
