@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0137-single-number-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0198-house-robber) |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 | [3643-zero-array-transformation-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3643-zero-array-transformation-ii) |
 ## Prefix Sum
 |  |
@@ -260,4 +262,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
