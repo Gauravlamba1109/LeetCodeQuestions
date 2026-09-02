@@ -1,32 +1,33 @@
 class Solution {
-public:
-    int maximumPoints(vector<vector<int>>& edges, vector<int>& coins, int k) {
-        vector<vector<int>> adj(edges.size()+1);
-        vector<vector<int>>dp(edges.size()+1,vector<int>(16,-1));
+    vector<vector<int>> graph;
+    vector<array<int, 15>> memo;
+    vector<int>* coins;
+    int fee;
 
-        for(int i=0;i<edges.size();i++){
-            adj[edges[i][0]].push_back(edges[i][1]);
-            adj[edges[i][1]].push_back(edges[i][0]);
+    int dfs(int u, int parent, int shift) {
+        int& ans = memo[u][shift];
+        if (ans != INT_MIN) return ans;
+        int value = (*coins)[u] >> shift;
+        int take = value - fee;
+        int halve = value >> 1;
+        for (int v : graph[u]) if (v != parent) {
+            take += dfs(v, u, shift);
+            halve += dfs(v, u, min(14, shift + 1));
         }
-
-        return dfs(adj,k,coins,0,0,0,dp);
+        return ans = max(take, halve);
     }
-
-    int dfs(vector<vector<int>>&adj, int k, vector<int>& coins, int p, int node,int parent,vector<vector<int>>&dp ){
-        if(dp[node][p]!=-1){
-            return dp[node][p];
+public:
+    int maximumPoints(vector<vector<int>>& edges, vector<int>& values, int k) {
+        int n = values.size();
+        graph.assign(n, {});
+        for (auto& e : edges) {
+            graph[e[0]].push_back(e[1]);
+            graph[e[1]].push_back(e[0]);
         }
-        int w1 = (coins[node]>>p)-k;
-        int w2 = (coins[node]>>p)/2;
-        if(p+1==15) return dp[node][p]=w1;
-
-        for(auto v : adj[node]){
-            if(v!=parent){
-                w1+= dfs(adj,k,coins,p,v,node,dp);
-                w2+= dfs(adj,k,coins,p+1,v,node,dp);    
-            }
-        }
-
-        return dp[node][p]= max(w1,w2);
+        memo.resize(n);
+        for (auto& row : memo) row.fill(INT_MIN);
+        coins = &values;
+        fee = k;
+        return dfs(0, -1, 0);
     }
 };
