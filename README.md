@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3483-alternating-groups-ii) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1343-dice-roll-simulation](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1343-dice-roll-simulation) |
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 ## Hash Table
 |  |
 | ------- |
@@ -162,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0260-single-number-iii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0260-single-number-iii) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
@@ -193,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0386-lexicographical-numbers) |
 | [0968-binary-tree-cameras](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0968-binary-tree-cameras) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 ## Trie
 |  |
 | ------- |
@@ -255,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0070-climbing-stairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0139-word-break) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 ## Linked List
 |  |
 | ------- |
@@ -291,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0968-binary-tree-cameras](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0968-binary-tree-cameras) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 ## Binary Tree
 |  |
 | ------- |
@@ -299,4 +305,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0968-binary-tree-cameras](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0968-binary-tree-cameras) |
+| [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 <!---LeetCode Topics End-->
