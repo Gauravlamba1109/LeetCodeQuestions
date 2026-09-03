@@ -1,15 +1,14 @@
 class Solution {
 public:
     int partitionString(string s) {
-        set<char>seen;
+        bool seen[26] ={};
         int ans=1;
         for(char e:s){
-            if(seen.contains(e)){
+            if(seen[e-'a']){
                 ans++;
-                seen.clear();
+                fill(begin(seen),end(seen),false);
             }
-            seen.insert(e);
-            
+            seen[e-'a']=1;
         }
 
         return ans;
