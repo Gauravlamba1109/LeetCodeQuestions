@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
 | [1343-dice-roll-simulation](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1343-dice-roll-simulation) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
@@ -162,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3643-zero-array-transformation-ii) |
 ## Bit Manipulation
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
 | [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
@@ -233,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 ## Enumeration
@@ -240,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [1291-sequential-digits](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1291-sequential-digits) |
+| [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 ## Matrix
 |  |
 | ------- |
