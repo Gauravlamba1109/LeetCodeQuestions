@@ -84,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
+| [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
@@ -145,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0474-ones-and-zeroes) |
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3775-reverse-words-with-same-vowel-count](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3775-reverse-words-with-same-vowel-count) |
@@ -210,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0044-wildcard-matching](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0044-wildcard-matching) |
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
+| [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Heap (Priority Queue)
