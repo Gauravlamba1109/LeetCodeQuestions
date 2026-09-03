@@ -33,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
+| [3332-maximum-points-tourist-can-earn](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3332-maximum-points-tourist-can-earn) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3483-alternating-groups-ii) |
@@ -66,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1398-number-of-ways-to-stay-in-the-same-place-after-some-steps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1398-number-of-ways-to-stay-in-the-same-place-after-some-steps) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
+| [3332-maximum-points-tourist-can-earn](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3332-maximum-points-tourist-can-earn) |
 ## Hash Table
 |  |
 | ------- |
@@ -232,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0967-minimum-falling-path-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0967-minimum-falling-path-sum) |
+| [3332-maximum-points-tourist-can-earn](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3332-maximum-points-tourist-can-earn) |
 ## Recursion
 |  |
 | ------- |
