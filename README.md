@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2265-partition-array-according-to-given-pivot](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
+| [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 | [3332-maximum-points-tourist-can-earn](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3332-maximum-points-tourist-can-earn) |
@@ -213,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
 | [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
+| [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Heap (Priority Queue)
@@ -221,12 +223,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0239-sliding-window-maximum) |
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0902-minimum-number-of-refueling-stops](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0902-minimum-number-of-refueling-stops) |
+| [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 ## Sorting
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
+| [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 ## Enumeration
 |  |
