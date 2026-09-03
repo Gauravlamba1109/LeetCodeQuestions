@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0967-minimum-falling-path-sum](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0967-minimum-falling-path-sum) |
 | [1025-minimum-cost-for-tickets](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1025-minimum-cost-for-tickets) |
+| [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
 | [1266-minimum-time-visiting-all-points](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1266-minimum-time-visiting-all-points) |
 | [1343-dice-roll-simulation](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1343-dice-roll-simulation) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -83,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2308-divide-array-into-equal-pairs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
@@ -230,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
 | [0767-reorganize-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0767-reorganize-string) |
 | [0900-reordered-power-of-2](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0900-reordered-power-of-2) |
+| [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
 | [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 ## Enumeration
@@ -259,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0274-h-index](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0274-h-index) |
+| [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
 ## Backtracking
 |  |
 | ------- |
@@ -316,4 +320,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0968-binary-tree-cameras](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0968-binary-tree-cameras) |
 | [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
+## Quicksort
+|  |
+| ------- |
+| [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
+## Bubble Sort
+|  |
+| ------- |
+| [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
 <!---LeetCode Topics End-->
