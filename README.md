@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2920-maximum-points-after-collecting-coins-from-all-nodes](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2920-maximum-points-after-collecting-coins-from-all-nodes) |
 | [3332-maximum-points-tourist-can-earn](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3332-maximum-points-tourist-can-earn) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
+| [3413-maximum-coins-from-k-consecutive-bags](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3643-zero-array-transformation-ii) |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2478-longest-nice-subarray) |
+| [3413-maximum-coins-from-k-consecutive-bags](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -159,11 +161,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0004-median-of-two-sorted-arrays) |
+| [3413-maximum-coins-from-k-consecutive-bags](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3643-zero-array-transformation-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3643-zero-array-transformation-ii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
+| [3413-maximum-coins-from-k-consecutive-bags](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3643-zero-array-transformation-ii](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3643-zero-array-transformation-ii) |
 ## Bit Manipulation
@@ -220,6 +224,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2405-optimal-partition-of-string](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2405-optimal-partition-of-string) |
 | [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
+| [3413-maximum-coins-from-k-consecutive-bags](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3849-maximum-bitwise-xor-after-rearrangement](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3849-maximum-bitwise-xor-after-rearrangement) |
 | [3868-minimum-cost-to-equalize-arrays-using-swaps](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3868-minimum-cost-to-equalize-arrays-using-swaps) |
 ## Heap (Priority Queue)
@@ -238,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1122-relative-sort-array](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/1122-relative-sort-array) |
 | [2171-removing-minimum-number-of-magic-beans](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2171-removing-minimum-number-of-magic-beans) |
 | [2542-maximum-subsequence-score](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/2542-maximum-subsequence-score) |
+| [3413-maximum-coins-from-k-consecutive-bags](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3413-maximum-coins-from-k-consecutive-bags) |
 | [3842-toggle-light-bulbs](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/3842-toggle-light-bulbs) |
 ## Enumeration
 |  |
