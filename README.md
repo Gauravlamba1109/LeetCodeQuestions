@@ -293,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0146-lru-cache) |
+| [0155-min-stack](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0155-min-stack) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -313,6 +314,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0042-trapping-rain-water) |
+| [0155-min-stack](https://github.com/Gauravlamba1109/LeetCodeQuestions/tree/master/0155-min-stack) |
 ## Monotonic Stack
 |  |
 | ------- |
